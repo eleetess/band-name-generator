@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Band Name Generator</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="relative h-screen font-sans text-white">
+    
+    <div class="absolute inset-0 z-0">
+      <div class="w-full h-full bg-[url('https://i.pinimg.com/originals/7d/43/a1/7d43a13bffc1d16113d9d97d016756dc.jpg')] bg-cover bg-center">
+        <div class="w-full h-full bg-gradient-to-r from-stone-800/80 to-purple-800/70"></div>
+      </div>
+    </div>
+
+    
+    <div class="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-4">
+      <h1 class="text-4xl font-bold mb-4">Band Name Generator</h1>
+      <p class="mb-4">Click the button to reveal your new band name.</p>
+
+      <div id="band-name" class="text-2xl font-semibold mb-6">
+        
+      </div>
+
+      <button id="generate-btn" class="bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded">
+        Generate Name
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+     
+    
+  </body>
+</html>
